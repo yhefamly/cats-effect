@@ -1,0 +1,175 @@
+tests/shared/src/test/scala/cats/effect/IOSuite.scala
+  h_c4122cbab16eb8 1671-1716,1727-1729,1731-1747,1749,1753-1754,1760-1780,1782-1792,1795-1800,1802,1805,1807-1814,1817-1820,1823-1989,2006-2047,2060-2270
+  h_c4122cbab16eb8 1730,1748,1750-1752,1755-1759,1781,1793-1794,1801,1803-1804,1806,1815-1816,1821-1822,1990-1991,2048-2049
+.git-blame-ignore-revs
+  h_c4122cbab16eb8 24-26
+.github/workflows/ci.yml
+  h_c4122cbab16eb8 33,35,44,46,48,50,52,54,64-65,68,70-71,74,81,83,85,87,98,112,126,138,147,156,168,174-175,179,189,199,213,227,241,255,278,290,295,300,304-311,314,334,339,357,377,387,400,413,426,439,449-450,452,454,459-460,462,464,469-470,472,474,479-480,482,484,489-490,492,494,499-500,502,504,509-510,512,514,519-520,522,524,529-530,532,534,539-540,542,544,549-550,552,554,602,612,625,638,651,664
+.scalafmt.conf
+  h_c4122cbab16eb8 1
+README.md
+  h_c4122cbab16eb8 14,18,33-34,41-42,48
+benchmarks/src/main/scala/cats/effect/benchmarks/ParallelBenchmark.scala
+  h_c4122cbab16eb8 20,27-28,61-78
+build.sbt
+  h_c4122cbab16eb8 114,117-124,186-194,337-338,341,374,437,457-459,470,515-517,533-538,1095-1100,1172-1174,1180-1211
+core/js/src/main/scala/cats/effect/SyncIOCompanionPlatform.scala
+  h_c4122cbab16eb8 22
+core/jvm-native/src/main/scala/cats/effect/SyncIOCompanionPlatform.scala
+  h_c4122cbab16eb8 19,22-25
+core/jvm-native/src/main/scala/cats/effect/unsafe/WorkerThread.scala
+  h_c4122cbab16eb8 304,307
+core/jvm/src/main/scala/cats/effect/IOApp.scala
+  h_c4122cbab16eb8 148-154,159-160,165-167,172-174,176-177,393-395,402
+core/native/src/main/resources/scala-native/signal_helper.c
+  h_c4122cbab16eb8 2-7,28
+core/native/src/main/scala/cats/effect/unsafe/EpollSystem.scala
+  h_c4122cbab16eb8 43
+core/native/src/main/scala/cats/effect/unsafe/KqueueSystem.scala
+  h_c4122cbab16eb8 42
+core/shared/src/main/scala/cats/effect/IO.scala
+  h_c4122cbab16eb8 1558
+core/shared/src/main/scala/cats/effect/LiftIO.scala
+  h_c4122cbab16eb8 22,28,159-165
+docs/core/io-local.md
+  h_c4122cbab16eb8 70,73-74,76,109,112-115
+docs/core/native-image.md
+  h_c4122cbab16eb8 36,70
+docs/core/scala-native.md
+  h_c4122cbab16eb8 25,55
+docs/core/starvation-and-tuning.md
+  h_c4122cbab16eb8 92
+docs/core/test-runtime.md
+  h_c4122cbab16eb8 31
+docs/faq.md
+  h_c4122cbab16eb8 6-25,32,196,204,227
+docs/getting-started.md
+  h_c4122cbab16eb8 9,71,125,127,132
+docs/migration-guide.md
+  h_c4122cbab16eb8 84-86,99
+docs/std/atomic-cell.md
+  h_c4122cbab16eb8 19-22,26,28-29,32-35,39-45,50-58
+docs/std/atomic-map.md
+  h_c4122cbab16eb8 1-78
+docs/std/mapref.md
+  h_c4122cbab16eb8 35
+docs/std/ref.md
+  h_c4122cbab16eb8 36
+docs/tutorial.md
+  h_c4122cbab16eb8 45,49,339
+flake.lock
+  h_c4122cbab16eb8 11-12,15,44-45,48,93-94,97
+kernel-testkit/shared/src/main/scala/cats/effect/kernel/testkit/TestContext.scala
+  h_c4122cbab16eb8 27,63,67,283,289-296
+kernel/shared/src/main/scala/cats/effect/kernel/Async.scala
+  h_c4122cbab16eb8 24-26,163,301
+kernel/shared/src/main/scala/cats/effect/kernel/GenConcurrent.scala
+  h_c4122cbab16eb8 133-143,150-248,252-261,268-336,380-384
+kernel/shared/src/main/scala/cats/effect/kernel/GenSpawn.scala
+  h_c4122cbab16eb8 19,854-857
+kernel/shared/src/main/scala/cats/effect/kernel/MiniSemaphore.scala
+  h_c4122cbab16eb8 30-31,65,81-83
+kernel/shared/src/main/scala/cats/effect/kernel/MonadCancel.scala
+  h_c4122cbab16eb8 19,54-56,72-76,84,95-98,100-105,107,110,113,115,119-121,123-124,127-128,131-133,137,139-141,143-145,194-208,231-232,574,593-595,597-602,614
+kernel/shared/src/main/scala/cats/effect/kernel/Outcome.scala
+  h_c4122cbab16eb8 130-131
+kernel/shared/src/main/scala/cats/effect/kernel/Resource.scala
+  h_c4122cbab16eb8 24,629,631,634-637,639,641-659,663-671,674-690,692,694-695,697-699,807-811,1008-1012,1017,1294-1297,1312-1330,1350-1361
+kernel/shared/src/main/scala/cats/effect/kernel/instances/GenSpawnInstances.scala
+  h_c4122cbab16eb8 19,35,37,88-105
+kernel/shared/src/test/scala/cats/effect/kernel/SyntaxSuite.scala
+  h_c4122cbab16eb8 24-28
+laws/shared/src/test/scala/cats/effect/kernel/ResourceSuite.scala
+  h_c4122cbab16eb8 1-98
+laws/shared/src/test/scala/cats/effect/laws/GenTemporalSuite.scala
+  h_c4122cbab16eb8 29,152-153,155-157,159,161-162,164-167
+project/build.properties
+  h_c4122cbab16eb8 1
+project/plugins.sbt
+  h_c4122cbab16eb8 3,5-8,11-12
+scalafix/project/build.properties
+  h_c4122cbab16eb8 1
+scalafix/project/plugins.sbt
+  h_c4122cbab16eb8 1
+scripts/make-site-pr.sh
+  h_c4122cbab16eb8 41-53,58
+std/js/src/main/scala/cats/effect/std/SecureRandomCompanionPlatform.scala
+  h_c4122cbab16eb8 117,121-125
+std/jvm/src/main/scala/cats/effect/std/SecureRandomCompanionPlatform.scala
+  h_c4122cbab16eb8 46,50-54
+std/native/src/main/scala/cats/effect/std/SecureRandomCompanionPlatform.scala
+  h_c4122cbab16eb8 60,64-68
+std/shared/src/main/scala/cats/effect/std/AtomicCell.scala
+  h_c4122cbab16eb8 156-161,163-164,167-170,172-175,189-210,212,215,224,231,240,242-254,256-263,265-327
+std/shared/src/main/scala/cats/effect/std/AtomicMap.scala
+  h_c4122cbab16eb8 1-132
+std/shared/src/main/scala/cats/effect/std/SecureRandom.scala
+  h_c4122cbab16eb8 127-129,142-167
+std/shared/src/main/scala/cats/effect/std/Semaphore.scala
+  h_c4122cbab16eb8 151,153-154,168-178,185-194,197-202,218-219,221,236-251,261
+std/shared/src/main/scala/cats/effect/std/Supervisor.scala
+  h_c4122cbab16eb8 144,153-154,174-217,225-226,228,230-277,280-283,288,290-291,293,295-324,326-328,349-351,388-390
+testkit/shared/src/main/scala/cats/effect/testkit/TestInstances.scala
+  h_c4122cbab16eb8 256
+tests/js/src/test/scala/cats/effect/IOPlatformSuite.scala
+  h_c4122cbab16eb8 29-35,38-45,47
+tests/jvm-native/src/test/scala/cats/effect/IOConcurrencySuite.scala
+  h_c4122cbab16eb8 19,120-152,294,313,334,491-523,732-784
+tests/jvm-native/src/test/scala/cats/effect/SyncIOPlatformSuite.scala
+  h_c4122cbab16eb8 33-48
+tests/jvm/src/main/scala/catseffect/examplesplatform.scala
+  h_c4122cbab16eb8 53-58,60
+tests/jvm/src/test/scala/cats/effect/IOPlatformSuite.scala
+  h_c4122cbab16eb8 22,24,31-54,103-106
+tests/jvm/src/test/scala/cats/effect/std/MapRefJVMSuite.scala
+  h_c4122cbab16eb8 102
+tests/jvm/src/test/scala/cats/effect/unsafe/WorkerThreadNameSuite.scala
+  h_c4122cbab16eb8 19,21,27,29-42,44-54,57-84,86-94,96-97
+tests/shared/src/main/scala/catseffect/examples.scala
+  h_c4122cbab16eb8 87-91,183-188
+tests/shared/src/test/scala/cats/effect/IOFiberSuite.scala
+  h_c4122cbab16eb8 36,51,55-61
+tests/shared/src/test/scala/cats/effect/LiftIOSuite.scala
+  h_c4122cbab16eb8 1-33
+tests/shared/src/test/scala/cats/effect/ResourceSuite.scala
+  h_c4122cbab16eb8 1188-1191,1214-1300
+tests/shared/src/test/scala/cats/effect/Runners.scala
+  h_c4122cbab16eb8 114-116
+tests/shared/src/test/scala/cats/effect/ThunkSuite.scala
+  h_c4122cbab16eb8 23
+tests/shared/src/test/scala/cats/effect/kernel/AsyncSuite.scala
+  h_c4122cbab16eb8 110
+tests/shared/src/test/scala/cats/effect/kernel/MiniSemaphoreSuite.scala
+  h_c4122cbab16eb8 95-111
+tests/shared/src/test/scala/cats/effect/std/AtomicCellSuite.scala
+  h_c4122cbab16eb8 29-32,36-37,39,42-45,49-50,52,55-58,62-63,65,68-71,77-78,82,85-88,102,105-108,114,117-120,128
+tests/shared/src/test/scala/cats/effect/std/AtomicMapSuite.scala
+  h_c4122cbab16eb8 1-177
+tests/shared/src/test/scala/cats/effect/std/DispatcherSuite.scala
+  h_c4122cbab16eb8 434-438,440,442-456
+tests/shared/src/test/scala/cats/effect/std/MapRefSuite.scala
+  h_c4122cbab16eb8 101,230
+tests/shared/src/test/scala/cats/effect/std/NonEmptyHotswapSuite.scala
+  h_c4122cbab16eb8 2
+tests/shared/src/test/scala/cats/effect/std/QueueSuite.scala
+  h_c4122cbab16eb8 591,802-804,806-809,839
+tests/shared/src/test/scala/cats/effect/std/SemaphoreSuite.scala
+  h_c4122cbab16eb8 181-216
+tests/shared/src/test/scala/cats/effect/std/SupervisorSuite.scala
+  h_c4122cbab16eb8 280-316,318-324,326-349,351-356,358-359
+tests/shared/src/test/scala/cats/effect/tracing/TraceSuite.scala
+  h_c4122cbab16eb8 25-26,49-51
+tests/shared/src/test/scala/cats/effect/unsafe/IORuntimeBuilderSuite.scala
+  h_c4122cbab16eb8 24-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4acc30f1b0987f34b406be9bcb52c7ef38c42c3a",
+  "prompts": {},
+  "humans": {
+    "h_c4122cbab16eb8": {
+      "author": "Yannick Heiber <ybasket42googlemail.com>"
+    }
+  }
+}
