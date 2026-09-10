@@ -1,0 +1,26 @@
+kernel/shared/src/main/scala/cats/effect/kernel/GenConcurrent.scala
+  h_08749565cac8b5 151-153,155,363
+  s_c207803611f0d5::t_2876959a8cbc44 146
+  h_08749565cac8b5 147-150,154,255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0b4af55b1d765308711ad11b5da451df7e4ba7f8",
+  "prompts": {},
+  "humans": {
+    "h_08749565cac8b5": {
+      "author": "Yannick Heiber <yhe@famly.co>"
+    }
+  },
+  "sessions": {
+    "s_c207803611f0d5": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1789047156640",
+        "model": "unknown"
+      },
+      "human_author": "Yannick Heiber <yhe@famly.co>"
+    }
+  }
+}
