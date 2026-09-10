@@ -1,0 +1,14 @@
+kernel/shared/src/main/scala/cats/effect/kernel/GenConcurrent.scala
+  h_c4122cbab16eb8 146-155,255,363
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4500e205419241d449bd8ef0559d1b8f8dd390b6",
+  "prompts": {},
+  "humans": {
+    "h_c4122cbab16eb8": {
+      "author": "Yannick Heiber <ybasket42googlemail.com>"
+    }
+  }
+}
